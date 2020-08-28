@@ -1,7 +1,7 @@
 import React from 'react';
 import DeleteIcon from '@material-ui/icons/Delete';
 import Draggable from 'react-draggable';
-import { Tooltip, Box, Container } from '@material-ui/core';
+import { Tooltip, Box } from '@material-ui/core';
 import classes from './Practise.module.css';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
