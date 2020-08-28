@@ -1,0 +1,22 @@
+.ImgWrapper{
+    position:relative;
+    border:none;
+    padding:2px;
+    cursor: pointer;
+}
+.ImgWrapper img{
+    width:100%;
+}
+.ImgWrapper:hover{
+    border: 1px dashed red;
+}
+.deleteIcon{
+    position:absolute;
+    top:-1%;
+    right:-1%;
+    cursor: pointer;
+    display:none;
+}
+.ImgWrapper:hover .deleteIcon{
+    display: block;
+}

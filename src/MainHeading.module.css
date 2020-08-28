@@ -1,0 +1,11 @@
+.textEditor{
+    text-align: center;
+    text-overflow: clip;
+}
+.textEditor h1{
+    margin:0px;
+}
+.paraTextWrapper{
+    text-align: center;
+    margin:0px;
+}

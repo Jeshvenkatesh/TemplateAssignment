@@ -1,0 +1,29 @@
+.slider{
+    width:200px;
+    display: flex;
+    align-items: center;
+    border-left:1px solid gray;
+    border-right: 1px solid gray;
+    padding-left:10px;
+    /* flex-wrap: wrap; */
+}
+.mainWrapper{
+    margin-bottom: 30px;
+}
+.textFieldWrapper{
+    width:50%;
+    display: flex;
+    padding-left:10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.toolbarWrapper{
+    width:100%;
+    height:fit-content;
+    background-color: seashell;
+
+}
+.closeBtn{
+    margin-left: auto;
+    cursor: pointer;
+}
