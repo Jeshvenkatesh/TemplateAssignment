@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import MainHeading from "./MainHeading";
-import MultiCards from "./MultiCards";
-import ToolbarWrapper from "./Toolbar";
-import LogoImg from "./Practise";
-import ButtonWrapper from "./ButtonWrapper";
-import Banner from './Banner';
-import Topbar from "./Topbar";
-import Footer from "./Footer";
-import TemplateFooter from "./TemplateFooter";
+import MainHeading from "./Components/Template/MainHeading";
+import MultiCards from "./Components/Cards/MultiCards";
+import ToolbarWrapper from "./Components/Topbar/Toolbar";
+import LogoImg from "./Components/Template/Practise";
+import ButtonWrapper from "./Components/Buttons/ButtonWrapper";
+import Banner from './Components/Cards/Banner';
+import Topbar from "./Components/Topbar/Topbar";
+import Footer from "./Components/Footers/Footer";
+import TemplateFooter from "./Components/Footers/TemplateFooter";
 
 class App extends React.Component {
 

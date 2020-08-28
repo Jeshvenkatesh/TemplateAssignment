@@ -1,5 +1,6 @@
 import React from 'react';
-import "./App.css";
+// import "./App.css";
+import "../../App.css";
 import { Box, Button ,makeStyles } from "@material-ui/core";
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
    

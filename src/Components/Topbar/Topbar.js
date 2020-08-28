@@ -2,7 +2,7 @@ import React from 'react';
 import { AppBar, Container, Tabs, Tab, Box, Toolbar, Button } from "@material-ui/core";
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import { makeStyles } from '@material-ui/core/styles';
-import Logo from "./companyLogo.png";
+import Logo from "../../companyLogo.png";
 import HelpIcon from '@material-ui/icons/Help';
 import PhotoSizeSelectSmallIcon from '@material-ui/icons/PhotoSizeSelectSmall';
 import AddSharpIcon from '@material-ui/icons/AddSharp';
