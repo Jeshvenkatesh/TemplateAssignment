@@ -100,7 +100,9 @@ const Topbar = (props) => {
                             </Box>
                             <Box>
                                 <Container>
-                                    <Tabs variant="scrollable">
+                                    <Tabs
+                                      variant="scrollable"
+                                    >
                                         <Tab className={classes.tab}  label="Upgrade" />
                                         <Tab className={classes.tab}  icon={<AddSharpIcon />} />
                                         <Tab className={classes.tab}  icon={<HelpIcon />} />

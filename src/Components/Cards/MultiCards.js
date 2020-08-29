@@ -40,6 +40,9 @@ class MultiCards extends React.Component {
            console.log(response.data);
            this.setState({cardData : [...response.data]})
        })
+       .catch((err)=>{
+           console.log(err)
+       })
     }
     generateCardDetails = (item) => {
         // console.log(item);

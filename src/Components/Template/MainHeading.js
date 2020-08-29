@@ -23,6 +23,7 @@ class MainHeading extends React.Component {
     handleSubmit = (e) => {
         e.preventDefault();
         const text = e.target.mainText.value;
+        localStorage.setItem("HeadingText", text);
         if (text) {
             this.setState({ inputValue: text, isShowText: true });
         }
@@ -33,11 +34,13 @@ class MainHeading extends React.Component {
     }
     handleParaInputVal = (e) => {
         const text = e.target.value;
-        this.setState({ inputParaValue: text })
+        this.setState({ inputParaValue: text });
+
     }
     handleParaSubmit = (e) => {
         e.preventDefault();
         const text = e.target.paraText.value;
+        localStorage.setItem("inputParaValue", text);
         if (text) {
             this.setState({ inputParaValue: text, isShowParaText: true })
         }

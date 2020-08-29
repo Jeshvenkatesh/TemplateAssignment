@@ -3,8 +3,6 @@ import { Toolbar, Button, TextField, Box,Container, Typography } from '@material
 import Slider from '@material-ui/core/Slider';
 import classes from "./Toolbar.module.css";
 import CloseIcon from '@material-ui/icons/Close';
-import Draggable from 'react-draggable';
-
 
 
 class ToolbarWrapper extends React.Component {
@@ -54,7 +52,6 @@ class ToolbarWrapper extends React.Component {
     }
   render(){
     return (
-        <Draggable>
         <div className={classes.mainWrapper}>
         {
         this.props.IsShowToolbar === true ?
@@ -166,7 +163,6 @@ class ToolbarWrapper extends React.Component {
         null
     }
     </div>
-    </Draggable>
     )
 }
 }
