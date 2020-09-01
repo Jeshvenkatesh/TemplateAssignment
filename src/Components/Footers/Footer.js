@@ -55,8 +55,6 @@ const Footer = (props) => {
         console.log(templateData);
        
     }
- 
-
     const classes = useStyles();
     return (
         <div className={classes.footerWrapper}>
