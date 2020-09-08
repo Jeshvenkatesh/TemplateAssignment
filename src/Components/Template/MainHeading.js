@@ -10,7 +10,7 @@ class MainHeading extends React.Component {
     state = {
         inputValue: "Template",
         isShowText: true,
-        inputParaValue: " Features: Dragable components, Resizable images and buttons, Add Move and Delete images, Inline text editors. Happy to Use by simple double click on elements",
+        inputParaValue: " Lorem ipsum dolor lorem ipsom dolor Lorem ipsum dolor lorem ipsom dolorLorem ipsum dolor lorem ipsom dolor Lorem ipsum dolor lorem ipsom dolor Lorem ipsum dolor lorem ipsom dolor ",
         isShowParaText: true
     }
     handleInputVal = (e) => {

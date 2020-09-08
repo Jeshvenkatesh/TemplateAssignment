@@ -28,10 +28,7 @@ const TemplateFooter = () => {
         <Draggable>
         <Box className={classes.footerWrapper}>
             <Container >
-                <p className={classes.textWrapper}>Note: 1) We can edit or resize the elements not only from the topbar but also through particular element by double click on it.
-                2) The cards are dynamically generated from backend through mock API. 3) Whenever card is clicked, The card image will be displayed as a banner image and card details will be displayed at bottom of the cards section.
-                4) To change banner image by simple double click on it and paste new image url in the url field from toolbar and press enter.
-                5) We can resize buttons in two ways first : double click on particular button and second : select the particular button from the topbar. </p>
+                <p className={classes.textWrapper}>lorem ipsun dolor lorem ipsun dolor lorem ipsun dolor lorem ipsun dolor lorem ipsun dolorlorem ipsun dolorlorem ipsun dolor lorem ipsun dolorlorem ipsun dolor  </p>
             </Container>
         </Box>
         </Draggable>

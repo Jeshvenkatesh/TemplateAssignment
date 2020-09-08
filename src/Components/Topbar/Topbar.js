@@ -2,7 +2,7 @@ import React from 'react';
 import { AppBar, Container, Tabs, Tab, Box, Toolbar, Button } from "@material-ui/core";
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import { makeStyles } from '@material-ui/core/styles';
-import Logo from "../../companyLogo.png";
+// import Logo from "../../companyLogo.png";
 import HelpIcon from '@material-ui/icons/Help';
 import PhotoSizeSelectSmallIcon from '@material-ui/icons/PhotoSizeSelectSmall';
 import AddSharpIcon from '@material-ui/icons/AddSharp';
@@ -80,7 +80,8 @@ const Topbar = (props) => {
                         <Toolbar>
                             <Box className={classes.logoContainer}> 
                                 <Container>
-                                    <img src={Logo} alt="Teachedision" />
+                                    <h3>TEMPLATE</h3>
+                                    {/* <img src={Logo} alt="Teachedision" /> */}
                                 </Container>
                             </Box>
                             <Box className={classes.tabContainer}>
@@ -90,11 +91,11 @@ const Topbar = (props) => {
                                         textColor="primary"
                                         variant="scrollable"
                                     >
-                                        <Tab className={classes.tab} onClick={handleEditLogo}  label="Edit Logo" icon={<PhotoSizeSelectSmallIcon />} />
+                                        <Tab className={classes.tab} onClick={handleEditLogo} label="Edit Logo"icon={<PhotoSizeSelectSmallIcon />} />
                                         <Tab className={classes.tab} onClick={handleEditBanner} label="Edit Banner" icon={<AspectRatioOutlinedIcon />} />
-                                        <Tab  className={classes.tab} onClick={handleBtnOne} label="Button 1" icon={<RadioButtonUncheckedIcon />} />
-                                        <Tab className={classes.tab} onClick={handleBtnTwo} label="Button 2" icon={<RadioButtonUncheckedIcon />} />
-                                        <Tab className={classes.tab} onClick={handleBtnThree} label="Button 3" icon={<RadioButtonUncheckedIcon />} />
+                                        <Tab  className={classes.tab} onClick={handleBtnOne} label="Button one"  icon={<RadioButtonUncheckedIcon />} />
+                                        <Tab className={classes.tab} onClick={handleBtnTwo} label="Button Two" icon={<RadioButtonUncheckedIcon />} />
+                                        <Tab className={classes.tab} onClick={handleBtnThree} label="Button Three" icon={<RadioButtonUncheckedIcon />} />
                                     </Tabs>
                                 </Container>
                             </Box>

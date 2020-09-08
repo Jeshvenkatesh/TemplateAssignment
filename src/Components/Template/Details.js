@@ -69,7 +69,6 @@ class Details extends React.Component {
             })
     }
 
-
     render() {
 
         const generateDetails = this.state.tempateData.map((item) => {

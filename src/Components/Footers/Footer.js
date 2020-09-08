@@ -22,7 +22,6 @@ const useStyles = makeStyles((theme)=>({
 
 const Footer = (props) => {
 
-
     const handleCancelOperation=()=> {
         localStorage.clear();
     }
@@ -47,7 +46,6 @@ const Footer = (props) => {
             props.handleCloseToolbar();
             setTimeout(function(){  
                 localStorage.clear() }, 3000);
-           
         })
         .catch((err)=>{
             console.log(err)
